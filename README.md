@@ -4,6 +4,7 @@
 
  # How to use it
 
+* [Open-Project](CSV\templates\main.html)
  You just upload a csv-file with all the data and the program does the rest.
 
 ## Built With
