@@ -5,3 +5,11 @@
  # How to use it.
 
  You just upload a csv-file with all the data and the program does the rest.
+
+## Built With
+
+* [Django](https://docs.djangoproject.com/en/4.1/)
+
+## Authors
+
+* **Leonardo Alvarez** - [oxisakre](https://github.com/oxisakre)
