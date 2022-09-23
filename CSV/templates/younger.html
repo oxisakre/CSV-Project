@@ -1,0 +1,65 @@
+{% load static %}
+{% include 'navbar.html' %}
+<html>
+<head>
+    <style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        
+    }
+    
+    .botones {
+        display: flex;
+        flex-direction: column;
+        width: auto ;
+      
+    }
+    .botones > a {
+        
+        background-color: #333
+
+    }
+
+    .upper {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        
+    }
+    .upper > * {
+        margin-right: 2rem ;
+    }
+    </style>
+</head>
+    <font size="2" face="Tahoma" >
+    <h1 class='table'></h1>
+    <div class="upper">
+        <table class="tabla" border="1"; width="25%";>
+            <thead>
+                <th>Person</th>
+                <th>Gender</th>
+                <th>Birthdate</th>
+            </thead>
+            {% for k in edad  %}
+            <tr>
+                <td>{{k}}</td>
+                <td>{{k.getGender}}</td>
+                <td>{{k.getBirthdate}}</td>
+            
+            </tr>
+            
+            {% endfor %}
+        </table>
+        <div class="botones">
+            <a class="form-submit-button" href="table">Table</a>
+            <a href="alphabetical">Alphabetical</a>
+            <a href="older">Older</a>
+            <a href="younger">Younger</a>
+        </div>
+        
+    </div>
+
+    </font>
+    
+</html>

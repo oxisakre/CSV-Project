@@ -1,0 +1,125 @@
+<html>
+<style>
+        ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #111;
+    }
+    .navbar {
+  overflow: hidden;
+  
+    }
+
+    .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+    .dropdown {
+    float: left;
+    overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    }
+    .navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+    }  
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+
+    .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+
+    .dropdown-content a:hover {
+    background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+    .navbar-header {
+      background-color: #333;
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+</style>
+<head>
+<title>CSV Reader</title>
+<body>
+<div class="container">
+<nav class="navbar navbar-dfault navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+          CSV Reader
+        </div>
+        <ul class="nav navbar-nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="table">Table</a></li>
+        <div class="dropdown">
+            <button class="dropbtn">Plot
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="gender">Gender</a>
+            </div>
+        </div>
+        </ul>
+        </li>
+    </ul>
+</body>
+</head> 
+</html>
