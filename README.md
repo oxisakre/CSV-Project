@@ -5,7 +5,7 @@
 ## How to use it
 
 * [Open-Project](CSV\templates\main.html)
- You just upload a csv-file with all the data and the program does the rest.
+ Upload a csv-file with all the data, written in this way ---> Name,Gender,Birthdate
 
 ## Built With
 
