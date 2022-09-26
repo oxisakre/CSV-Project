@@ -4,7 +4,6 @@
 
 ## How to use it
 
-* [Open-Project](CSV\templates\main.html)
  Upload a csv-file with all the data, written in this way ---> Name,Gender,Birthdate
 
 ## Built With
