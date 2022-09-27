@@ -1,10 +1,10 @@
 # CSV-project
- Hi, this is my csv file reader.
+ Hi, this is my csv file reader.\
  The goal of this program is to read a csv-file with many people and organize them by name, age or gender. This also has a plot with the amount of different genders there are.
 
 ## How to use it
- You need to have Python installed.
- Download the project, then open the command prompt in the 'CSV project\CSV' (where the 'manage.py' is) and type ' Python3 manage.py runserver'.
+ You need to have Python installed.\
+ Download the project, then open the command prompt in the 'CSV project\CSV' (where the 'manage.py' is) and type ' Python3 manage.py runserver'.\
  Upload a csv-file with all the data, written in this way ---> Name,Gender,Birthdate.
 
 ## Built With
