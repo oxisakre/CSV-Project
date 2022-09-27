@@ -1,1 +1,0 @@
-web gunicorn CSV.wsgi:application --log-file -
