@@ -5,7 +5,7 @@
 
 ## How to use it
 * You need to have Python installed.
-* Download the project, then open the command prompt in the ```CSV project\CSV``` (where the 'manage.py') is and type ``` Python3 manage.py runserver```.
+* Download the project, then open the command prompt in the ```CSV project\CSV``` **(where the 'manage.py' is)** and type ``` Python3 manage.py runserver```.
 * Upload a csv-file with all the data, written in this way ---> Name,Gender,Birthdate.
 * Gender have to be ```M for Male, F for Female, O for Other``` and Birthdate ```Year-Month-Day Hour:Minutes:Seconds```
 * Example: ```Sean Kingston,M,1990-01-29 16:32:00``` (if you don't know the time, just put 00:00:00)
