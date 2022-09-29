@@ -19,7 +19,7 @@
 ![Captura de pantalla 2022-09-29 174820](https://user-images.githubusercontent.com/107063891/193078558-eff29eb5-c62f-4e64-b0bd-05cda423358a.png) \
 (An example file)\
 ![Captura de pantalla 2022-09-29 173827](https://user-images.githubusercontent.com/107063891/193078633-7d41d853-d8e1-45fa-8ed8-c2c90dd41652.png) \
-![Captura de pantalla 2022-09-29 174822](https://user-images.githubusercontent.com/107063891/193078759-a1bb7563-9d70-48c1-8ad4-dd0b4232a7c0.png) \
+![Captura de pantalla 2022-09-29 174822](https://user-images.githubusercontent.com/107063891/193078759-a1bb7563-9d70-48c1-8ad4-dd0b4232a7c0.png) 
 3) Then you can see a Table where you can choose the format of it. You also have a plot with a gender count. \
 ![Captura de pantalla 2022-09-29 173924](https://user-images.githubusercontent.com/107063891/193079184-4de58be0-df4a-48db-a559-928c6f84249a.png) \
 ![Captura de pantalla 2022-09-29 174030](https://user-images.githubusercontent.com/107063891/193080171-357daa3a-7d8d-4b89-8ae3-162db2aff104.png) 
