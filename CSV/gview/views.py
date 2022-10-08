@@ -30,7 +30,6 @@ class UploadFile(View):
         return redirect('/table')
 
 
-
 class MainView(View):
     template_name = None
     def get(self, request):
@@ -43,18 +42,18 @@ class idListView(View):
 
 class Alphabetically(View):
     def get(self, request):
-        names = Person.objects.order_by('name')
-        return render(request, 'alphabetical.html', {'names': names})
+        data = Person.objects.order_by('name')
+        return render(request, 'alphabetical.html', {'data': data})
 
 class Older(View):
     def get(self, request):
-        ages = Person.objects.order_by('birthdate', 'name')
-        return render(request, 'older.html', {'ages': ages})
+        data = Person.objects.order_by('birthdate', 'name')
+        return render(request, 'older.html', {'data': data})
 
 class Younger(View):
     def get(self, request):
-        edad = Person.objects.order_by('-birthdate', 'name')
-        return render(request, 'younger.html', {'edad': edad})
+        data = Person.objects.order_by('-birthdate', 'name')
+        return render(request, 'younger.html', {'data': data})
 
 class GenderType(View):
     def get(self, request):

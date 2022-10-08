@@ -9,7 +9,6 @@ class Person(models.Model):
     name = models.CharField(max_length=128)
     birthdate = models.DateTimeField()
     created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
     
     class Gender(models.TextChoices):
         MALE = 'M', _('Male')
@@ -26,5 +25,8 @@ class Person(models.Model):
     
     def getBirthdate(self):
         return self.birthdate.strftime("%d-%B-%Y")
+    
+    def getCreatedAt(self):
+        return self.created_at.strftime("%d-%B-%Y")
         
 
