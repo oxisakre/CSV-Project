@@ -10,7 +10,7 @@ from django.contrib import messages
 # Create your views here.
 class UploadFile(View):
     def post(self, request, *args, **kwargs):
-        context={}
+        
         uploaded_file = request.FILES['document']
         if uploaded_file.name.endswith('.csv'):
                     #save the file in data folder
